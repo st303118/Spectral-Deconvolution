@@ -3,7 +3,7 @@
 This is a Python script for performing spectral deconvolution using non-negative least-squares optimization. It is handy in analytical chemistry, bioengineering, or spectroscopy where complex spectra must be broken down into known pure components.
 Carotenoids pure spectra I used for my project were originally published by:
 
-## Authors: Lesley A Clementson 1, Bozena Wojtasiewicz. Dataset on the absorption characteristics of extracted phytoplankton pigments. Data Brief. 2019 Mar 29;24:103875. doi: 10.1016/j.dib.2019.103875
+# Lesley A Clementson, Bozena Wojtasiewicz. Dataset on the absorption characteristics of extracted phytoplankton pigments. Data Brief. 2019 Mar 29;24:103875. doi: 10.1016/j.dib.2019.103875
 
 You can generate your pure spectra for similar applications as well or use the data published in that paper.
 
