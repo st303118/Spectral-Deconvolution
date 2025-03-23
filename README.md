@@ -56,7 +56,3 @@ pip install -r requirements.txt
 ## 📚 License
 
 This project is licensed under the MIT License.
-
-## 🙌 Acknowledgements
-
-Created with support from experimental work on spectral component analysis and deconvolution.
