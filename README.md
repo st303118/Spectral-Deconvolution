@@ -1,6 +1,6 @@
 # Spectral Deconvolution via Least-Squares Fitting
 
-This repository contains a Python script for performing spectral deconvolution using non-negative least-squares optimization. It is particularly useful in analytical chemistry, bioengineering, or spectroscopy where complex spectra need to be broken down into known pure components.
+This repository contains a Python script for performing spectral deconvolution using non-negative least-squares optimization. It is handy in analytical chemistry, bioengineering, or spectroscopy where complex spectra must be broken down into known pure components.
 
 ## 📌 Features
 
@@ -30,7 +30,7 @@ This repository contains a Python script for performing spectral deconvolution u
 Just run the script with Python:
 
 ```bash
-python spectral_deconvolution_final.py
+python Spectral_Deconvolution.py
 ```
 
 Make sure the input files (`YOUR_EXPERIMENTAL_dATA.csv` and `PURE_SPECTRUM_REFERENCE.csv`) are in the same directory.
