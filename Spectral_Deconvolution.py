@@ -50,8 +50,8 @@ def run_least_squares_fitting():
     4. Also returns the wavelength array for optional plotting.
     """
     # -- Load Data --
-    samples_df = pd.read_csv("SLs_evolved_strans_chl_again.csv") ##Input your experimental file name
-    pure_df    = pd.read_csv("pure_spectra_final.csv")  ##Input your pure component file
+    samples_df = pd.read_csv("YOUR_EXPERIMENTAL_dATA.csv") ##Input your experimental file name
+    pure_df    = pd.read_csv("PURE_SPECTRUM_REFERENCE.csv")  ##Input your pure component file
 
     wavelengths = samples_df['wavelength'].values	##Make sure your first column heading is wavelength not Wavelength
     D = samples_df.drop(columns=['wavelength']).values   # shape: (n_wavelengths, n_samples)
