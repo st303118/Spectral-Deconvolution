@@ -4,7 +4,7 @@ Spectral Deconvolution via Least-Squares Fitting
 Author: [Sunil Tiwari]
 Date: [March-23-2025]
 License: MIT
-Repository: https://github.com/yourusername/spectral-deconvolution
+Repository: https://github.com/st303118/spectral-deconvolution
 
 Description:
 ------------
@@ -45,7 +45,7 @@ def run_least_squares_fitting():
     3. Save:
        - coefficients_grg.csv ##Coeffieients it gets from deconvoluted spectra
        - reconstructed_spectra_grg.csv  #Sum of individual components in the spectra added 
-       - fit_statistics_grg.csv  ##SSE and RSEM of fit
+       - fit_statistics_grg.csv  ##SSE and RSEM of fit, in my experiments RSEM was always less than 5%, so make sure you validate your's too
        - combined_partial_contributions_optimized.csv (needed for subsequent steps)
     4. Also returns the wavelength array for optional plotting.
     """
